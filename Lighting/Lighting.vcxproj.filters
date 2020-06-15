@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\glsl">
+      <UniqueIdentifier>{bdad05c1-7f55-4e84-8ce3-3d4f494260c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\skybox">
+      <UniqueIdentifier>{40f07aa2-1875-45b8-9cd8-f49c55bbea4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="light.frag">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="object.frag">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="vertex.vert">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="framebuffer.vert">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="framebuffer.frag">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="cubemap.vert">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="cubemap.frag">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="geometry.vert">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="geometry.frag">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="geometry.geom">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="object.geom">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+    <None Include="instance.vert">
+      <Filter>Source Files\glsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lighting_maps_specular_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="container_emission.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="metal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="blending_transparent_window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="right.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

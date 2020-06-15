@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+/x64/
+Lighting/x64/
+Assimp/x64/
+LearnOpenGL/x64/
